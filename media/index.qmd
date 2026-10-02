@@ -1,0 +1,88 @@
+---
+title: "Variability in demographics across research sites: Lessons from the ManyDogs Project"
+author: "<BR>Jeffrey R. Stevens, Julia Espinosa, and the ManyDogs Project"
+institute: "Big Team Science Conference<br>2026-10-07"
+format: 
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: media/cchil_logo_white_N.png
+    slide-number: true
+    toc: false
+    toc-depth: 1
+---
+
+# Introduction
+
+## ManyDogs Project
+
+International research consortium of scientists with shared interest in canine behavior and cognition ([manydogs.org](https://manydogsproject.github.io))
+
+![](media/manydogs_banner.jpg){fig-align="center" height="300" fig-alt="ManyDogs logo with yellow, orange, and blue dogs jumping between the words Many and Dogs."}
+
+
+
+
+## ManyDogs Project
+
+![](media/manydogs_sites.png){fig-align="center" fig-alt="Map of the world with ManyDogs Project sites marked with blue dots."}
+
+## ManyDogs 1
+
+::: {.callout-tip appearance="simple"}
+## Research Question
+
+::: {style="font-size: 40px"}
+Do dogs treat human pointing as communicative cues?
+:::
+:::
+
+::: {.fragment}
+![](media/dog-pointing.jpg){fig-align="center" width="650"}
+:::
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+## ManyDogs 1
+
+* 20 research sites
+* 704 dogs tested
+* 455 dogs with complete data
+* UNL CCHIL tested 80 dogs and 33 completed 
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Site effects
+
+::: {.r-stack}
+![](media/md1_site_accuracy_1.png){fig-align="center" height="650"}
+
+![](media/md1_site_accuracy_2_last.png){fig-align="center" height="650" .fragment}
+:::
+
+<!-- ::: {.source} -->
+<!-- [ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023) -->
+<!-- ::: -->
+
+
+## Site differences
+
+![](media/md1_guardian_age.png){fig-align="center" height="625"}
+
+<!-- ::: {.source} -->
+<!-- [ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023) -->
+<!-- ::: -->
+
+
+## Study conclusions
+
+::: {.incremental}
+* Dogs were slightly better than chance but no difference between conditions
+
+* Pretty consistent findings across sites despite differences in demographics
+:::
+
