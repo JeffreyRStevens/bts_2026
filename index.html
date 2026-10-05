@@ -6,7 +6,9 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Jeffrey R. Stevens, Julia Espinosa, and the ManyDogs Project">
@@ -170,46 +172,52 @@
 <h2>Why do replications fail?</h2>
 <ul>
 <li>Publication bias</li>
-<li>Methodological differences</li>
-<li>Setting differences</li>
+<li>Methodological/setting differences</li>
 <li>Measurement error</li>
-<li>Statistical inference</li>
+<li>Statistical inference issues</li>
 <li>Timing/zeitgeist</li>
 </ul>
 <div class="source">
-<p>Hoffmann et al.&nbsp;2025</p>
+<p><a href="https://doi.org/10.1177/25152459251328273">Hoffmann et al.&nbsp;2025. <em>Advances in Methods and Practices in Psychological Science</em>.</a></p>
 </div>
 </section>
-<section id="populations" class="slide level2">
-<h2>Populations</h2>
-<ul>
-<li><p>Hoffmann et al.&nbsp;2025 found only 8.7% equivalence in population characteristics between replications and original studies</p></li>
-<li><p>By far, lowest equivalence rate of 15 factors, except timing which was 0%</p></li>
-<li><p>Fewer than 10% of studies were equivalent in terms of age and gender of the sample</p></li>
-</ul>
+<section id="population-characteristics" class="slide level2">
+<h2>Population characteristics</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="media/hoffmann.etal.2025_table.png" class="quarto-figure quarto-figure-center" height="550"></p>
+</figure>
+</div>
+<div class="source">
+<p><a href="https://doi.org/10.1177/25152459251328273">Hoffmann et al.&nbsp;2025. <em>Advances in Methods and Practices in Psychological Science</em>.</a></p>
+</div>
+<!-- * Hoffmann et al. 2025 found only 8.7% equivalence in population characteristics between replications and original studies -->
+<!-- * By far, lowest equivalence rate of 15 factors, except timing which was 0% -->
+<!-- * Fewer than 10% of studies were equivalent in terms of age and gender of the sample -->
+<!-- ## Variation in study populations -->
+<!-- * Population source -->
+<!-- * Recruitment strategies -->
+<!-- * Time of year/semester -->
 </section>
-<section id="variation-in-study-populations" class="slide level2">
-<h2>Variation in study populations</h2>
-<ul>
-<li>Population source</li>
-<li>Recruitment strategies</li>
-<li>Time of year/semester</li>
-</ul>
-</section>
-<section id="comparing-populations" class="slide level2">
-<h2>Comparing populations</h2>
-<ul>
-<li><p>Historically, most replications were one lab replicating another lab</p></li>
-<li><p>This requires reporting consistent demographics: Hughes, Camden, &amp; Yangchen, 2016; Singh et al., 2024, 2025; Sterling, Pearl, Liu, Allen, &amp; Fleischer, 2022</p></li>
-</ul>
+<section id="comparing-samples" class="slide level2">
+<h2>Comparing samples</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="media/twogroups.png" class="quarto-figure quarto-figure-center" height="550"></p>
+</figure>
+</div>
+<div class="source">
+<p>Source: <a href="https://medium.com/the-modern-scientist/comparing-two-populations-in-data-science-9a9379086892">Medium</a></p>
+</div>
+<!-- * Historically, most replications were one lab replicating another lab -->
+<!-- * This requires reporting consistent demographics: Hughes, Camden, & Yangchen, 2016; Singh et al., 2024, 2025; Sterling, Pearl, Liu, Allen, & Fleischer, 2022 -->
 </section>
 <section id="big-team-science-to-the-rescue" class="slide level2">
 <h2>Big team science to the rescue</h2>
-<ul>
-<li><p>BTS expands replication efforts to allow large-scale comparisons across sites</p></li>
-<li><p>Includes consistent demographics</p></li>
-</ul>
-</section></section>
+
+<!-- * BTS expands replication efforts to allow large-scale comparisons across sites -->
+<!-- * Includes consistent demographics -->
+<img data-src="media/world_network.png" class="quarto-figure quarto-figure-center r-stretch" width="1000"></section></section>
 <section>
 <section id="manydogs-project" class="title-slide slide level1 center">
 <h1>ManyDogs Project</h1>
@@ -248,9 +256,8 @@
 <p><img data-src="media/dog-pointing.jpg" class="absolute" style="top: 250px; left: 55%; width: 550px; "></p>
 <div class="fragment">
 <ul>
-<li>20 research sites</li>
 <li>704 dogs tested</li>
-<li>455 dogs with complete data</li>
+<li>20 research sites <!-- * 455 dogs with complete data --></li>
 </ul>
 <p><img data-src="media/md1_labs.png" class="absolute" style="top: 250px; left: 55%; width: 600px; "></p>
 </div>
@@ -260,18 +267,24 @@
 </section>
 <section id="manydogs-1-demographics" class="slide level2">
 <h2>ManyDogs 1 demographics</h2>
+<div class="fragment">
 <h3 id="dog-demographics">Dog demographics</h3>
 <ul>
 <li>Age, sex, neuter status, breed, origin, years in home, previous research experience</li>
 </ul>
+</div>
+<div class="fragment">
 <h3 id="guardian-demographics">Guardian demographics</h3>
 <ul>
 <li>Age, gender</li>
 </ul>
+</div>
+<div class="fragment">
 <h3 id="household-demographics">Household demographics</h3>
 <ul>
 <li>Dogs in household, urban/suburban/rural environment</li>
 </ul>
+</div>
 </section>
 <section id="continuous-demographics-across-sites" class="slide level2">
 <h2>Continuous demographics across sites</h2>
@@ -301,7 +314,7 @@
 <h2>Behavioral data across sites</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="media/md1_dog_ost_nonost.png" class="fragment quarto-figure quarto-figure-center" height="600"></p>
+<p><img data-src="media/md1_behavior.png" class="fragment quarto-figure quarto-figure-center" height="600"></p>
 </figure>
 </div>
 </section>
@@ -354,12 +367,20 @@
 </section>
 <section id="thank-you" class="slide level2">
 <h2>Thank you</h2>
-<ul>
-<li>Website (https://manydogs.org/)</li>
-<li>Bluesky (https://bsky.app/profile/manydogsproject.bsky.social)</li>
-<li>Mastodon (https://fediscience.org/<span class="citation" data-cites="ManyDogs">@ManyDogs</span>)</li>
-<li>GitHub (https://github.com/manydogsproject)</li>
-</ul>
+<p><i class="fa-solid fa-home" aria-label="home"></i> <code>manydogs.org</code></p>
+<p><i class="fa-brands fa-instagram" aria-label="instagram"></i> <code>manydogsproject</code></p>
+<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i> <code>@manydogs.bsky.social</code></p>
+<p><i class="fa-brands fa-mastodon" aria-label="mastodon"></i> <code>fediscience.org/@ManyDogs</code></p>
+<p><i class="fa-brands fa-linkedin" aria-label="linkedin"></i> <code>linkedin.com/company/manydogs</code></p>
+<p><i class="fa-brands fa-github" aria-label="github"></i> <code>manydogsproject</code></p>
+<p><img data-src="media/dog_ball.jpg" class="absolute" style="top: 10%; left: 65%; height: 550px; " alt="Image of light brown dog with yellow tennis ball in its mouth."></p>
+<div class="source">
+<p>Photo by <a href="https://unsplash.com/@ethanrichardson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ethan Richardson</a> on <a href="https://unsplash.com/photos/white-and-brown-long-coated-dog-playing-tennis-ball-sZqAaxhXNtU">Unsplash</a></p>
+</div>
+<!-- * Website (https://manydogs.org/) -->
+<!-- * Bluesky (https://bsky.app/profile/manydogsproject.bsky.social) -->
+<!-- * Mastodon (https://fediscience.org/@ManyDogs) -->
+<!-- * GitHub (https://github.com/manydogsproject) -->
 
 </section></section>
     </div>
@@ -578,6 +599,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

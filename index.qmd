@@ -32,41 +32,54 @@ Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_med
 ## Why do replications fail?
 
 * Publication bias
-* Methodological differences
-* Setting differences
+* Methodological/setting differences
 * Measurement error
-* Statistical inference
+* Statistical inference issues
 * Timing/zeitgeist
 
 :::{.source}
-Hoffmann et al. 2025
+[Hoffmann et al. 2025. _Advances in Methods and Practices in Psychological Science_.](https://doi.org/10.1177/25152459251328273)
 :::
 
-## Populations
+## Population characteristics
 
-* Hoffmann et al. 2025 found only 8.7% equivalence in population characteristics between replications and original studies
+![](media/hoffmann.etal.2025_table.png){fig-align="center" height=550}
 
-* By far, lowest equivalence rate of 15 factors, except timing which was 0%
+:::{.source}
+[Hoffmann et al. 2025. _Advances in Methods and Practices in Psychological Science_.](https://doi.org/10.1177/25152459251328273)
+:::
 
-* Fewer than 10% of studies were equivalent in terms of age and gender of the sample
+<!-- * Hoffmann et al. 2025 found only 8.7% equivalence in population characteristics between replications and original studies -->
 
-## Variation in study populations
+<!-- * By far, lowest equivalence rate of 15 factors, except timing which was 0% -->
 
-* Population source
-* Recruitment strategies
-* Time of year/semester
+<!-- * Fewer than 10% of studies were equivalent in terms of age and gender of the sample -->
 
-## Comparing populations
+<!-- ## Variation in study populations -->
 
-* Historically, most replications were one lab replicating another lab
+<!-- * Population source -->
+<!-- * Recruitment strategies -->
+<!-- * Time of year/semester -->
 
-* This requires reporting consistent demographics: Hughes, Camden, & Yangchen, 2016; Singh et al., 2024, 2025; Sterling, Pearl, Liu, Allen, & Fleischer, 2022
+## Comparing samples
+
+![](media/twogroups.png){fig-align="center" height=550}
+
+:::{.source}
+Source: [Medium](https://medium.com/the-modern-scientist/comparing-two-populations-in-data-science-9a9379086892)
+:::
+
+<!-- * Historically, most replications were one lab replicating another lab -->
+
+<!-- * This requires reporting consistent demographics: Hughes, Camden, & Yangchen, 2016; Singh et al., 2024, 2025; Sterling, Pearl, Liu, Allen, & Fleischer, 2022 -->
 
 ## Big team science to the rescue
 
-* BTS expands replication efforts to allow large-scale comparisons across sites
+![](media/world_network.png){fig-align="center" width="1000"}
 
-* Includes consistent demographics
+<!-- * BTS expands replication efforts to allow large-scale comparisons across sites -->
+
+<!-- * Includes consistent demographics -->
 
 
 # ManyDogs Project
@@ -97,9 +110,9 @@ Do dogs treat human pointing as communicative cues?
 ![](media/dog-pointing.jpg){.absolute top=250 left="55%" width="550"}
 
 ::: {.fragment}
-* 20 research sites
 * 704 dogs tested
-* 455 dogs with complete data
+* 20 research sites
+<!-- * 455 dogs with complete data -->
 
 ![](media/md1_labs.png){.absolute top=250 left="55%" width="600" }
 :::
@@ -110,14 +123,21 @@ Do dogs treat human pointing as communicative cues?
 
 ## ManyDogs 1 demographics
 
+:::{.fragment}
 ### Dog demographics
 * Age, sex, neuter status, breed, origin, years in home, previous research experience
+:::
 
+:::{.fragment}
 ### Guardian demographics
 * Age, gender
+:::
 
+:::{.fragment}
 ### Household demographics
 * Dogs in household, urban/suburban/rural environment
+:::
+
 
 ## Continuous demographics across sites
 
@@ -136,7 +156,7 @@ Do dogs treat human pointing as communicative cues?
 
 ## Behavioral data across sites
 
-![](media/md1_dog_ost_nonost.png){fig-align="center" height="600" .fragment}
+![](media/md1_behavior.png){fig-align="center" height="600" .fragment}
 
 
 ## Demographic effects on behavior
@@ -175,7 +195,30 @@ Do dogs treat human pointing as communicative cues?
 
 ## Thank you
 
-* Website (https://manydogs.org/)
-* Bluesky (https://bsky.app/profile/manydogsproject.bsky.social)
-* Mastodon (https://fediscience.org/@ManyDogs)
-* GitHub (https://github.com/manydogsproject)
+```{r}
+library(icons)
+```
+
+{{< fa home >}} `manydogs.org`
+
+{{< fa brands instagram >}} `manydogsproject`
+
+{{< fa brands bluesky >}} `@manydogs.bsky.social`
+
+{{< fa brands mastodon >}} `fediscience.org/@ManyDogs`
+
+{{< fa brands linkedin >}} `linkedin.com/company/manydogs`
+
+{{< fa brands github >}} `manydogsproject`
+
+
+![](media/dog_ball.jpg){.absolute top="10%" left="65%" height="550" fig-alt="Image of light brown dog with yellow tennis ball in its mouth."}
+
+:::{.source}
+Photo by <a href="https://unsplash.com/@ethanrichardson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ethan Richardson</a> on <a href="https://unsplash.com/photos/white-and-brown-long-coated-dog-playing-tennis-ball-sZqAaxhXNtU">Unsplash</a>
+:::
+
+<!-- * Website (https://manydogs.org/) -->
+<!-- * Bluesky (https://bsky.app/profile/manydogsproject.bsky.social) -->
+<!-- * Mastodon (https://fediscience.org/@ManyDogs) -->
+<!-- * GitHub (https://github.com/manydogsproject) -->
