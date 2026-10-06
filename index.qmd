@@ -166,7 +166,15 @@ Do dogs treat human pointing as communicative cues?
 
 ## Summary
 
-![](media/dog-owners.jpg){fig-align="center"}
+::: {.incremental}
+* Multiple levels of variation
+
+* Striking demographic variation across research sites
+
+* No strong association between demographics and behavior...yet
+
+* But how do we do this outside of big team science?
+:::
 
 
 # Consistent demographics
@@ -183,15 +191,10 @@ Do dogs treat human pointing as communicative cues?
 
 ## Take home message
 
-::: {.incremental}
-* Multiple levels of variation
+Carefully consider and fully describe your sample
 
-* Striking demographic variation across research sites
+![](media/dog-owners.jpg){fig-align="center"}
 
-* Inconsistent reporting of demographics
-
-* Carefully consider sample when comparing studies
-:::
 
 ## Thank you
 
@@ -212,7 +215,7 @@ library(icons)
 {{< fa brands github >}} `manydogsproject`
 
 
-![](media/dog_ball.jpg){.absolute top="10%" left="65%" height="550" fig-alt="Image of light brown dog with yellow tennis ball in its mouth."}
+![](media/dog_ball.jpg){.absolute top="10%" left="70%" height="550" fig-alt="Image of light brown dog with yellow tennis ball in its mouth."}
 
 :::{.source}
 Photo by <a href="https://unsplash.com/@ethanrichardson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ethan Richardson</a> on <a href="https://unsplash.com/photos/white-and-brown-long-coated-dog-playing-tennis-ball-sZqAaxhXNtU">Unsplash</a>
