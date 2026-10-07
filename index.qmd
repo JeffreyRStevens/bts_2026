@@ -13,20 +13,20 @@ format:
 
 # Introduction
 
-## Failed replications
+<!-- ## Failed replications -->
 
-![](media/social_media.jpg)
+<!-- ![](media/social_media.jpg) -->
+
+<!-- :::{.source} -->
+<!-- Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vitaly Gariev</a> on <a href="https://unsplash.com/photos/students-looking-at-phones-in-a-lecture-hall-QCNJ3xGnFR4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+<!-- ::: -->
+
+## Failed replication
+
+![](media/dog_spatial_apparatus.jpg){fig-align="center" height="550" fig-alt="Brown dog facing two plates: a yellow one with 1 treat and a white one with 3 treats."}
 
 :::{.source}
-Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vitaly Gariev</a> on <a href="https://unsplash.com/photos/students-looking-at-phones-in-a-lecture-hall-QCNJ3xGnFR4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-:::
-
-## Personal example
-
-![](media/dog_spatial_apparatus.jpg){fig-align="center"}
-
-:::{.source}
-[Stevens et al. 2022](https://doi.org/10.26451/abc.09.03.02.2022)
+[Stevens et al. 2022. _Animal Behavior & Cognition_.](https://doi.org/10.26451/abc.09.03.02.2022)
 :::
 
 ## Why do replications fail?
@@ -37,17 +37,21 @@ Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_med
 * Statistical inference issues
 * Timing/zeitgeist
 
+:::{.fragment}
+* Sample characteristics 
+:::
+
 :::{.source}
 [Hoffmann et al. 2025. _Advances in Methods and Practices in Psychological Science_.](https://doi.org/10.1177/25152459251328273)
 :::
 
-## Population characteristics
+<!-- ## Population characteristics -->
 
-![](media/hoffmann.etal.2025_table.png){fig-align="center" height=550}
+<!-- ![](media/hoffmann.etal.2025_table.png){fig-align="center" height=550} -->
 
-:::{.source}
-[Hoffmann et al. 2025. _Advances in Methods and Practices in Psychological Science_.](https://doi.org/10.1177/25152459251328273)
-:::
+<!-- :::{.source} -->
+<!-- [Hoffmann et al. 2025. _Advances in Methods and Practices in Psychological Science_.](https://doi.org/10.1177/25152459251328273) -->
+<!-- ::: -->
 
 <!-- * Hoffmann et al. 2025 found only 8.7% equivalence in population characteristics between replications and original studies -->
 
@@ -63,7 +67,7 @@ Photo by <a href="https://unsplash.com/@silverkblack?utm_source=unsplash&utm_med
 
 ## Comparing samples
 
-![](media/twogroups.png){fig-align="center" height=550}
+![](media/twogroups.png){fig-align="center" height=550 fig-alt="Illustration of two groups of people, one labeled 'Original sample' and one labeled 'Replicated sample'."}
 
 :::{.source}
 Source: [Medium](https://medium.com/the-modern-scientist/comparing-two-populations-in-data-science-9a9379086892)
@@ -75,7 +79,7 @@ Source: [Medium](https://medium.com/the-modern-scientist/comparing-two-populatio
 
 ## Big team science to the rescue
 
-![](media/world_network.png){fig-align="center" width="1000"}
+![](media/world_network.png){fig-align="center" width="1000" fig-alt="Map of the world with a network of sites/nodes connected by lines."}
 
 <!-- * BTS expands replication efforts to allow large-scale comparisons across sites -->
 
@@ -107,25 +111,25 @@ Do dogs treat human pointing as communicative cues?
 :::
 :::
 
-![](media/dog-pointing.jpg){.absolute top=250 left="55%" width="550"}
+![](media/dog-pointing.jpg){.absolute top=250 left="55%" width="550" fig-alt="Image of woman pointing to one of two blue cups, with a black dog looking on."}
 
 ::: {.fragment}
 * 704 dogs tested
 * 20 research sites
 <!-- * 455 dogs with complete data -->
 
-![](media/md1_labs.png){.absolute top=250 left="55%" width="600" }
+![](media/md1_labs.png){.absolute top=250 left="55%" width="600" fig-alt="Map of the world with ManyDogs 1 research sites marked with blue dots."}
 :::
 
 ::: {.source}
-[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_.](https://doi.org/10.26451/abc.10.03.03.2023)
 :::
 
 ## ManyDogs 1 demographics
 
 :::{.fragment}
 ### Dog demographics
-* Age, sex, neuter status, breed, origin, years in home, previous research experience
+* Age, sex, neuter status, breed, origin, years in home
 :::
 
 :::{.fragment}
@@ -138,30 +142,39 @@ Do dogs treat human pointing as communicative cues?
 * Dogs in household, urban/suburban/rural environment
 :::
 
+## Demographics levels
+
+![](media/demographics_interactions.png){fig-align="center"}
+
+
+:::{.source}
+[Espinosa et al. 2026. _Current Directions in Psychological Science_.](https://doi.org/10.1177/09637214261450055)
+:::
+
 
 ## Continuous demographics across sites
 
-![](media/md1_distributions.png){fig-align="center" height="600" .fragment}
+![](media/md1_distributions.png){fig-align="center" height="600" fig-alt="Ridgeline plot of distributions of four variables (dog age, dog years in home, guardian age, dogs in household) for each of 20 research sites." .fragment}
 
 
 ## Binary demographics across sites
 
-![](media/md1_proportions.png){fig-align="center" height="600" .fragment}
+![](media/md1_proportions.png){fig-align="center" height="600" fig-alt="Dot plot of percentages of six variables (dog percent female, dog percent neutered, dog percent purebred, dog percent from breeding, percent urban/suburban, guardian percent female) for each of 20 research sites." .fragment}
 
 
 ## Regional comparisons
 
-![](media/md1_region_compare.png){fig-align="center" height="600" .fragment}
+![](media/md1_region_compare.png){fig-align="center" height="600" fig-alt="Dot plot and mean +/- 95% confidence interval of percentages of six variables (dog percent female, dog percent neutered, dog percent purebred, dog percent from breeding, percent urban/suburban, guardian percent female) separated by region (Europe vs. North America)." .fragment}
 
 
-## Behavioral data across sites
+<!-- ## Behavioral data across sites -->
 
-![](media/md1_behavior.png){fig-align="center" height="600" .fragment}
+<!-- ![](media/md1_behavior.png){fig-align="center" height="600" .fragment} -->
 
 
-## Demographic effects on behavior
+<!-- ## Demographic effects on behavior -->
 
-![](media/md1_behavior_correlation.png){fig-align="center" height="600" .fragment}
+<!-- ![](media/md1_behavior_correlation.png){fig-align="center" height="600" .fragment} -->
 
 
 ## Summary
@@ -171,8 +184,6 @@ Do dogs treat human pointing as communicative cues?
 
 * Striking demographic variation across research sites
 
-* No strong association between demographics and behavior...yet
-
 * But how do we do this outside of big team science?
 :::
 
@@ -181,11 +192,11 @@ Do dogs treat human pointing as communicative cues?
 
 ## Reported demographics
 
-![](media/percent_literature_reporting.png){fig-align="center" height="600"}
+![](media/percent_literature_reporting.png){fig-align="center" height="600" fig-alt="Cleveland dot plot showing the percent of survey respondents recording demographic information for the top 20 most recorded demographics. Values range from 98% to 53%."}
 
 ## Recommended demographics
 
-![](media/percent_survey_recommend.png){fig-align="center" height="600"}
+![](media/percent_survey_recommend.png){fig-align="center" height="600" fig-alt="Cleveland dot plot showing the percent of survey respondents recommending demographic information for the top 20 most recommended demographics. Values range from 96% to 39%."}
 
 # Wrap-up
 
@@ -193,8 +204,11 @@ Do dogs treat human pointing as communicative cues?
 
 Carefully consider and fully describe your sample
 
-![](media/dog-owners.jpg){fig-align="center"}
+![](media/dog-owners.jpg){fig-align="center" height=500 fig-alt="Image of room of people with their dogs."}
 
+:::{.source}
+Source: [The Hollywood Reporter](https://www.hollywoodreporter.com/video/inside-hollywoods-pet-friendly-offices-722375/)
+:::
 
 ## Thank you
 
